@@ -16,6 +16,7 @@ var divide = function(number1, number2) {
 
 
 $(document).ready(function() {
+  $("#draggable").draggable();
   $("#math").submit(function(){
     var number1 = parseInt($("#num1").val());
     var number2 = parseInt($("#num2").val());
